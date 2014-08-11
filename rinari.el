@@ -798,7 +798,7 @@ and redirects."
    (script "s" ((t . "script/")) nil)
    (lib "l" ((t . "lib/")) nil)
    (log "o" ((t . "log/")) nil)
-   (worker "w" ((t . "lib/workers/")) nil)
+   (worker "w" ((t . "app/workers/")) nil)
    (public "p" ((t . "public/")) nil)
    (stylesheet "y" ((t . "public/stylesheets/.*")
                     (t . "app/assets/stylesheets/.*")) nil)
